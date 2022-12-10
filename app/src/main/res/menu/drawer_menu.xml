@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/nav_read"
+        android:icon="@drawable/ic_read"
+        android:title="READ"/>
+    <item android:id="@+id/nav_write"
+        android:icon="@drawable/ic_write"
+        android:title="WRITE"/>
+    <item android:id="@+id/nav_other"
+        android:icon="@drawable/ic_other"
+        android:title="OTHER"/>
+</group>
+    <item android:title="Theme">
+        <menu>
+            <item android:id="@+id/nav_dark"
+                android:icon="@drawable/ic_dark"
+                android:title="Dark Mode"/>
+        </menu>
+    </item>
+
+</menu>
